@@ -3,6 +3,9 @@ import {
   Column,
   CreateDateColumn,
   Entity,
+  JoinTable,
+  OneToMany,
+  OneToOne,
   PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
